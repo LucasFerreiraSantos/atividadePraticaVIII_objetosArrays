@@ -1,5 +1,22 @@
+const individuos = []
 
+do{
+  const nome = prompt('Qual o seu nome?')
+  const idade = Number(prompt('Qual a sua idade?'))
+  const trabalho = confirm('Está trabalhando?')
+  let salario = 0
+    if(trabalho){
+      salario += parseFloat(prompt('Qual o seu salário?'))
+    }
+  individuos.push({
+    nome: nome,
+    idade: idade,
+    trabalho: trabalho,
+    salario: salario
+  })
+}while(confirm('Deseja cadastrar um novo indivíduo?'))
 
+document.write(individuos)
 // 4. Crie um cadastro de pessoas onde o usuário informe o nome, idade
 // e se está trabalhando ou não, se a pessoa estiver trabalhando pergunte para ele o salário que está ganhando. Para cada pessoa cadastrada, pergunte ao usuário se ele deseja continuar
 // cadastrando ou não. No final, mostre as pessoas que estão

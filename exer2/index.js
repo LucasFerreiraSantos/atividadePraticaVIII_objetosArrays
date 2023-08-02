@@ -3,7 +3,7 @@ const notebook = {
   memoria: '16gb',
   preco: '5000',
   hd: '1tb',
-  ssd: '256gb',
+  ssd: '256gb'
 }
 console.log(notebook)
 
