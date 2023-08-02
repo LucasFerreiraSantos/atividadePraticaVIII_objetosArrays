@@ -1,10 +1,7 @@
 
 
 // 4. Crie um cadastro de pessoas onde o usuário informe o nome, idade
-// e se está trabalhando ou não, se a pessoa estiver trabalhando
-
-// pergunte para ele o salário que está ganhando. Para cada pessoa
-// cadastrada, pergunte ao usuário se ele deseja continuar
+// e se está trabalhando ou não, se a pessoa estiver trabalhando pergunte para ele o salário que está ganhando. Para cada pessoa cadastrada, pergunte ao usuário se ele deseja continuar
 // cadastrando ou não. No final, mostre as pessoas que estão
 // desempregadas, as pessoas que estão empregadas separadas
 // pelas que ganham mais que 2500 e menos que 2500.
